@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/screen"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backicon"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_weight="7">
+
+        <Button
+            android:id="@+id/white"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_white"
+
+            />
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_yellow"
+
+            />
+        <Button
+            android:id="@+id/red"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_red"
+
+            />
+        <Button
+            android:id="@+id/purple"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_purple"
+
+            />
+        <Button
+            android:id="@+id/green"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_green"
+
+            />
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_blue"
+
+            />
+        <Button
+            android:id="@+id/pink"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radiobutton_pink"
+
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

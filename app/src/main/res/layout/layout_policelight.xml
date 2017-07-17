@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/level_screen_police"
+    android:id="@+id/screen">
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/backicon"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+    <CheckBox
+        android:id="@+id/policeSwitch"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:background="@drawable/selector_switch"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:button="@null"
+        />
+
+</RelativeLayout>
